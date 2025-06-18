@@ -1,25 +1,22 @@
-Quiz App
+# Quiz App
 
 This is a browser-based quiz application built using HTML, CSS, and JavaScript. It supports multiple quiz categories and keeps track of high scores using Firebase.
 
-Features
+## Features
 
-Choose from different quiz categories
+* Choose from different quiz categories
+* Score tracking and countdown timer
+* High scores saved in Firebase Firestore
+* Clean, responsive design
 
-Score tracking 
+## Technologies Used
 
-High scores saved in Firebase Firestore
+* HTML, CSS, JavaScript (Vanilla)
+* Firebase (Firestore database)
 
-Clean, responsive design
+## File Overview
 
-Technologies Used
-
-HTML, CSS, JavaScript (Vanilla)
-
-Firebase (Firestore database)
-
-File Overview
-
+```
 index.html         - Landing page
 game.html          - Main quiz interface
 end.html           - Displays score and saves it
@@ -31,39 +28,38 @@ firebase.js        - Firebase configuration and Firestore setup
 game.js            - Quiz logic and gameplay
 end.js             - Score submission logic
 highScores.js      - Leaderboard logic
+```
 
-Getting Started
+## Getting Started
 
-Clone the repositoryOpen a terminal and run:
+1. **Clone the repository**
+   Open a terminal and run:
 
-git clone https://github.com/mrixz/quiz-app.git
-cd quiz-app
+   ```bash
+   git clone https://github.com/mrixz/quiz-app.git
+   cd quiz-app
+   ```
 
-Set up Firebase
+2. **Set up Firebase**
 
-Create a Firebase project on firebase.google.com.
+   * Create a Firebase project on [firebase.google.com](https://firebase.google.com).
+   * Enable Firestore in the Firebase console.
+   * Replace the configuration in `firebase.js` with your project's credentials.
 
-Enable Firestore in the Firebase console.
+3. **Run the App**
+   Just open `index.html` in your browser.
 
-Replace the configuration in firebase.js with your project's credentials.
+## Possible Improvements
 
-Run the App
-Just open index.html in your browser.
+* Add more categories and questions
+* Improve mobile responsiveness
+* Add user authentication for saving personal high scores
 
-Possible Improvements
-
-Add more categories and questions
-
-Improve mobile responsiveness
-
-Add user authentication for saving personal high scores
-
-About
+## About
 
 This project was created by Mridul Narayanan as a personal learning project.
 Feel free to use or modify it for your own purposes.
 
-License
+## License
 
 This project is licensed under the MIT License.
-
