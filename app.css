@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #56a5eb;
+    --background-color: #ecf5ff;
+    --text-color: #333;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    color: var(--text-color);
+}
+
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 4.8rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Layout Utilities */
+
+.container {
+    width: 100%;
+    max-width: 90rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Flex helpers */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    width: 22rem;
+    padding: 1.2rem;
+    margin: 0.8rem 0;
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    transform: translateY(-0.2rem);
+    box-shadow: 0 0.4rem 1.2rem rgba(86, 185, 235, 0.3);
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* Form Styling */
+
+form {
+    width: 100%;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .btn {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+}
+.footer-links {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}

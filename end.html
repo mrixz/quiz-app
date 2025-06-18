@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Congrats</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="end" class="flex-center flex-column">
+      <h1 id="finalScore"></h1>
+      <form>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+        />
+        <button 
+          type="submit" 
+          class="btn"
+          id="saveScoreBtn"
+          onclick="saveHighScore(event)"
+          disabled
+        >Save</button>
+      </form>
+      <a class="btn" href="/game.html">Play Again</a>
+      <a class="btn" href="/index.html">Go Home</a>
+    </div>
+
+    <footer class="flex-center" style="margin-top: 2rem; font-size: 1rem; color: gray;">
+      Created by <strong style="margin-left: 0.3rem;">T S Mridul Narayanan</strong>
+    </footer>
+  </div>
+
+
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+
+<script src="firebase.js"></script>
+
+
+<script src="end.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+{
+  "naruto": [
+    {
+      "question": "What power does Naruto gain from Sage Mode?",
+      "choice1": "Flying Raijin",
+      "choice2": "Chakra absorption",
+      "choice3": "Enhanced strength and perception",
+      "choice4": "Teleportation",
+      "answer": 3
+    },
+    {
+      "question": "What was Kotoamatsukami?",
+      "choice1": "Rewriting memories permanently",
+      "choice2": "Manipulating time",
+      "choice3": "Casting unbreakable genjutsu",
+      "choice4": "Teleportation",
+      "answer": 1
+    },
+    {
+      "question": "What was the name of the Sage of Six Paths' brother?",
+      "choice1": "Hagoromo Ōtsutsuki",
+      "choice2": "Toneri Ōtsutsuki",
+      "choice3": "Indra Ōtsutsuki",
+      "choice4": "Hamura Ōtsutsuki",
+      "answer": 4
+    },
+    {
+      "question": "What is the name of the seal used by Sakura for her chakra reserve?",
+      "choice1": "Curse Mark",
+      "choice2": "Byakugō Seal",
+      "choice3": "Eight Trigrams Seal",
+      "choice4": "Karma Seal",
+      "answer": 2
+    },
+    {
+      "question": "Who among the following was NOT a Jinchūriki of Kurama?",
+      "choice1": "Naruto Uzumaki",
+      "choice2": "Kushina Uzumaki",
+      "choice3": "Minato Namikaze",
+      "choice4": "Karin Uzumaki",
+      "answer": 4
+    },
+    {
+      "question": "Which kekkei genkai allows the user to passively enter Sage Mode by absorbing natural energy?",
+      "choice1": "Scorch Release (Shakuton)",
+      "choice2": "Wood Release (Mokuton)",
+      "choice3": "Crystal Release (Shōton)",
+      "choice4": "Storm Release (Ranton)",
+      "answer": 2
+    },
+    {
+      "question": "What does the Byakugan evolve into?",
+      "choice1": "Rinnegan",
+      "choice2": "Tenseigan",
+      "choice3": "Sharingan",
+      "choice4": "Jōgan",
+      "answer": 2
+    },
+    {
+      "question": "Who among the following was able to use Adamantine Sealing Chains?",
+      "choice1": "Hinata Hyuga",
+      "choice2": "Karin Uzumaki",
+      "choice3": "Naruto Uzumaki",
+      "choice4": "Sakura Haruno",
+      "answer": 2
+    },
+    {
+      "question": "What is the strongest known Rasengan variant used by Naruto?",
+      "choice1": "Planetary Rasengan",
+      "choice2": "Vanishing Rasengan",
+      "choice3": "Rasenshuriken",
+      "choice4": "Uzuhiko Rasengan",
+      "answer": 4
+    },
+    {
+      "question": "Which of these was in the secret code that Jiraiya left that helped decode Pain’s identity?",
+      "choice1": "Nagato",
+      "choice2": "106",
+      "choice3": "210",
+      "choice4": "Yahiko",
+      "answer": 2
+    }
+  ],
+  "mollywood": [
+    {
+      "question": "How many minutes of L2: Empuraan were cut after review?",
+      "choice1": "1 minute 8 seconds",
+      "choice2": "2 minutes 8 seconds",
+      "choice3": "3 minutes",
+      "choice4": "2 minutes 4 seconds",
+      "answer": 2
+    },
+    {
+      "question": "How many times has Shine Tom Chacko been arrested in drug-related cases?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "3",
+      "choice4": "4",
+      "answer": 2
+    },
+    {
+      "question": "What is Mammootty’s real name?",
+      "choice1": "Muhammad Kutty Salmaan Paniparambil",
+      "choice2": "Muhammad Kutty Ibrahim Veniparambil",
+      "choice3": "Muhammad Kutty Ismail Paniparambil",
+      "choice4": "Muhammad Kutty Maqbool Veniparambil",
+      "answer": 3
+    },
+    {
+      "question": "Which Malayalam film starring Mohanlal features only one actor on screen?",
+      "choice1": "Lucifer",
+      "choice2": "Alone",
+      "choice3": "Drishyam",
+      "choice4": "Oppam",
+      "answer": 2
+    },
+    {
+      "question": "What is the longest-running Malayalam movie franchise?",
+      "choice1": "In Harihar Nagar series",
+      "choice2": "CBI series",
+      "choice3": "Nadodikkattu series",
+      "choice4": "Lucifer series",
+      "answer": 2
+    },
+    {
+      "question": "Which prominent actor has no ₹100 crore film in Malayalam cinema?",
+      "choice1": "Unni Mukundan",
+      "choice2": "Mammootty",
+      "choice3": "Dulquer Salmaan",
+      "choice4": "Naslen K. Gafoor",
+      "answer": 2
+    },
+    {
+      "question": "Who is the villain in the film *Mumbai Police*?",
+      "choice1": "Antony Moses (Prithviraj Sukumaran)",
+      "choice2": "Jayasurya (Aaryan John Jacob)",
+      "choice3": "Riyaz Khan (Sharpshooter)",
+      "choice4": "Rahman (Farhan Aman)",
+      "answer": 1
+    },
+    {
+      "question": "How many films did Dhyan Sreenivasan appear in during 2023–2024 (including cameos)?",
+      "choice1": "8",
+      "choice2": "16",
+      "choice3": "12",
+      "choice4": "14",
+      "answer": 3
+    },
+    {
+      "question": "How many of Dhyan Sreenivasan’s films were confirmed box-office successes in 2023–2024?",
+      "choice1": "1",
+      "choice2": "2",
+      "choice3": "4",
+      "choice4": "5",
+      "answer": 2
+    },
+    {
+      "question": "How many of Dhyan Sreenivasan’s films likely failed at the box office in 2023–2024?",
+      "choice1": "16",
+      "choice2": "8",
+      "choice3": "7",
+      "choice4": "9",
+      "answer": 3
+    }
+  ]
+}

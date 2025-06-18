@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #eef7ff;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* HUD */
+#hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hud-prefix {
+  font-size: 2rem;
+  color: #222;
+}
+
+.hud-main-text {
+  font-size: 2.5rem;
+  color: #56a5eb;
+}
+
+/* Progress bar */
+#progressBar {
+  width: 20rem;
+  height: 3.5rem;
+  border: 0.3rem solid #56a5eb;
+  background-color: #e0f0ff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background-color: #56a5eb;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Question */
+#question {
+  font-size: 2rem;
+  color: #369;
+  margin-bottom: 2rem;
+}
+
+/* Choices */
+.choice-container {
+  display: flex;
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 1.6rem;
+  border: 0.1rem solid rgba(86, 165, 235, 0.25);
+  background-color: white;
+  height: 6rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 150ms, box-shadow 150ms;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+}
+
+
+
+.choice-prefix {
+  padding: 1.5rem 2rem;
+  background-color: #56a5eb;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 4rem;
+  height: 100%;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  flex-grow: 1;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* Result states */
+.correct {
+  background-color: #28a745 !important;
+}
+
+.incorrect {
+  background-color: #dc3545 !important;
+}
