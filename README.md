@@ -5,7 +5,7 @@ This is a browser-based quiz application built using HTML, CSS, and JavaScript. 
 ## Features
 
 * Choose from different quiz categories
-* Score tracking and countdown timer
+* Score tracking
 * High scores saved in Firebase Firestore
 * Clean, responsive design
 
@@ -49,15 +49,10 @@ highScores.js      - Leaderboard logic
 3. **Run the App**
    Just open `index.html` in your browser.
 
-## Possible Improvements
-
-* Add more categories and questions
-* Improve mobile responsiveness
-* Add user authentication for saving personal high scores
 
 ## About
 
-This project was created by Mridul Narayanan as a personal learning project.
+This project was created by T S Mridul Narayanan as a personal learning project.
 Feel free to use or modify it for your own purposes.
 
 ## License
