@@ -1,45 +1,69 @@
-# Quiz App
+Quiz App
 
-This is a simple web-based quiz application where users can answer multiple-choice questions, track their scores, and view high scores stored in a Firebase database.
+This is a browser-based quiz application built using HTML, CSS, and JavaScript. It supports multiple quiz categories and keeps track of high scores using Firebase.
 
-## Features
+Features
 
-- Start a quiz with 10 randomly selected questions
-- Score calculation and feedback on correct/wrong answers
-- High score submission and leaderboard
-- Firebase Firestore integration for storing global high scores
-- Responsive and user-friendly interface
+Choose from different quiz categories
 
-## Technologies Used
+Score tracking 
 
-- HTML, CSS, JavaScript
-- Firebase (Firestore for high score storage)
+High scores saved in Firebase Firestore
 
-## How to Run
+Clean, responsive design
 
-1. Clone the repository:
+Technologies Used
 
-   git clone https://github.com/your-username/quiz-app.git
+HTML, CSS, JavaScript (Vanilla)
 
-2. Open the `index.html` file in a web browser.
+Firebase (Firestore database)
 
-3. Play the quiz and enter your name to save your high score.
+File Overview
 
-## Firebase Setup
+index.html         - Landing page
+game.html          - Main quiz interface
+end.html           - Displays score and saves it
+highScores.html    - Shows leaderboard
+app.css            - General styles
+game.css           - Game-specific styles
+highscore.css      - High scores styles
+firebase.js        - Firebase configuration and Firestore setup
+game.js            - Quiz logic and gameplay
+end.js             - Score submission logic
+highScores.js      - Leaderboard logic
 
-Make sure you have your Firebase project created and Firestore enabled. Replace the Firebase configuration in `firebase.js` with your own project credentials.
+Getting Started
 
-## Folder Structure
+Clone the repositoryOpen a terminal and run:
 
-- `index.html` – Main quiz page
-- `game.js` – Core quiz logic
-- `end.html` – Final score and name input
-- `end.js` – Logic to save high scores
-- `highscores.html` – Leaderboard
-- `highscores.js` – Fetches and displays scores
-- `firebase.js` – Firebase configuration
-- `style.css` – All styles in one place
+git clone https://github.com/mrixz/quiz-app.git
+cd quiz-app
 
-## License
+Set up Firebase
 
-This project is for educational purposes. You are free to modify and use it as you like.
+Create a Firebase project on firebase.google.com.
+
+Enable Firestore in the Firebase console.
+
+Replace the configuration in firebase.js with your project's credentials.
+
+Run the App
+Just open index.html in your browser.
+
+Possible Improvements
+
+Add more categories and questions
+
+Improve mobile responsiveness
+
+Add user authentication for saving personal high scores
+
+About
+
+This project was created by Mridul Narayanan as a personal learning project.
+Feel free to use or modify it for your own purposes.
+
+License
+
+This project is licensed under the MIT License.
+
