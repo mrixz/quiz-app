@@ -26,7 +26,7 @@ function saveHighScore(event) {
   })
   .then(() => {
     console.log("Score saved to Firestore");
-    window.location.href = "highscores.html"; // redirect to leaderboard
+    window.location.href = "highScores.html"; // redirect to leaderboard
   })
   .catch((error) => {
     console.error(" Error saving score:", error);
