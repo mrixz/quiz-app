@@ -5,15 +5,14 @@ const finalScore = document.getElementById("finalScore");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 finalScore.innerText = mostRecentScore ?? "0";
 
-// Enable save button only when username has text
+
 username.addEventListener("keyup", () => {
   saveScoreBtn.disabled = !username.value;
 });
 
-// Save score to Firestore on button click
-function saveHighScore(event) {
-  event.preventDefault(); // prevent form reload
 
+function saveHighScore(event) {
+  event.preventDefault(); 
   const name = username.value.trim();
   const score = Number(mostRecentScore) || 0;
 
@@ -26,7 +25,7 @@ function saveHighScore(event) {
   })
   .then(() => {
     console.log("Score saved to Firestore");
-    window.location.href = "highScores.html"; // redirect to leaderboard
+    window.location.href = "highScores.html"; 
   })
   .catch((error) => {
     console.error(" Error saving score:", error);
